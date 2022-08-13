@@ -1,0 +1,491 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+body{
+   font-family: 'Roboto', sans-serif;
+}
+
+ul{
+   list-style: none;
+}
+
+/* General */
+.center{
+   text-align: center;
+}
+
+.container{
+   width: 80%;
+   margin: auto;
+}
+
+
+.bold{
+   font-weight: bold;
+   color: #000;
+}
+
+
+.btn{
+   padding: .6rem 1rem;
+   border-radius: 20px;
+}
+
+.btn:hover{
+   background-color: #000;
+   color: #fff;
+}
+
+.btnBlue{
+   color: #fff;
+   background-color: #3772FF;
+    padding: .75rem;
+   border-radius: 20px;
+   border: none;
+}
+
+.bg-white{
+   background-color: #fff;
+}
+
+.btnGray{
+   background: #fff; 
+   border:2px solid #E6E8EC; 
+   padding: .75rem; 
+   border-radius: 10px
+}
+
+.btnGray:hover{
+   color: #fff;
+   background-color: #3772FF;
+   border: none;
+}
+
+.borderGreen{
+   border: 1px solid  #45B36B;
+    color: #45B36B;
+}
+
+.grey{
+   color: #777E90;
+}
+
+.flex{
+   display: flex;
+   flex-direction: column;
+}
+
+.avaterDiv{
+   display: flex;
+}
+
+.avater{
+   width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.avater2{
+   width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.avaterDetail{
+   font-size: 15px;
+   padding: 0 .5rem;
+   
+}
+
+.mb{
+   margin-bottom: .5rem;
+}
+
+
+
+.p_05{
+   padding: .2rem 1rem;
+}
+
+.p1{
+   padding: 1rem;
+}
+.p2{
+   padding: 2rem;
+}
+
+.ftsm{
+   font-size: .6rem;
+   padding: 0 .2rem;
+}
+
+
+/* Nav */
+nav {
+   /* display: flex;
+   justify-content: space-between; */
+   display: grid;
+   grid-template-columns: 40% 60%;
+   border-bottom: 1px solid #E6E8EC;
+}
+
+.leftNav,
+.rightNav{
+   display: flex;
+   padding: .25rem;
+   align-self: center;
+  align-items: center;
+}
+
+
+.leftNav .logo{
+   padding-right: 1.5rem;
+   border-right: 1px solid #E6E8EC;
+}
+
+.leftNav .discover{
+  display: flex;
+  padding: 1rem;
+  align-self: center;
+  align-items: center;
+}
+
+.leftNav .discover a{
+   text-decoration: none;
+   color: #777E90;
+   font-weight: bold;
+}
+
+.leftNav .discover a:hover{
+   color: black;
+}
+
+.rightNav{
+   justify-content: space-evenly;
+}
+
+.rightNav .searchTab input{
+   padding: 1rem;
+   border-radius: 5px;
+}
+
+.rightNav button{
+   border: none;
+   font-size: 1rem;
+   padding: 1rem;
+}
+
+.profile{
+   display: flex;
+   justify-content: space-between;
+   align-self: center;
+  align-items: center;
+  border: 1px solid #777E90;
+  border-radius: 5px;
+  padding: 0.75rem;
+  background-color: #fff;
+}
+
+.profile img{
+   width: 50px;
+   height: auto;
+   border-radius: 50%;
+   padding-right: 10px; 
+}
+
+.profile h3{
+   padding: 0 5px;
+}
+
+.rightNav .menu{
+   display: none;
+}
+
+/* create */
+.create{
+   padding: 8rem 0 1rem 0;
+}
+
+.create h2{
+   font-size: 2rem;
+   padding-bottom: 2rem;
+}
+
+/* showcase */
+.showcase{
+   display: flex;
+   margin-top: 7rem;
+   margin-bottom: 2rem;
+   padding-bottom: 2rem;
+   border-bottom: 1px solid #777E90;
+
+}
+
+.showcase div{
+   flex: 1;
+}
+
+.showcaseImg{
+   height: 60rem;
+   border: 5px solid #fff;
+   border-radius: 20px;
+   background: url("./images/pexels-steve-johnson-1585325.jpg") no-repeat center center/cover;
+}
+
+.showcaseInfo{
+   padding: 1rem;
+   margin-left: 5rem;
+}
+
+.showcaseInfo .detail h2{
+   font-size: 3rem;
+   font-weight: bold;
+}
+
+.showcaseInfo .detail .detailProfil{
+   display: flex;
+   justify-content: space-between;
+   padding: 1rem;
+}
+
+.showcaseInfo .detail .productName{
+   display: flex;
+}
+
+.showcaseInfo .detail .productName li{
+   padding: .25rem .5rem;
+  margin: .75rem .5rem 2rem;
+}
+
+.showcaseInfo .detail .productName li:first-child{
+    border: 3px solid  #45B36B;
+    color: #45B36B;
+}
+
+.showcaseInfo .detail .productName li:nth-child(2){
+   border: 2px solid  #777E91;
+}
+
+.showcaseInfo .detail p{
+   padding: .5rem;
+   font-size: 1.5rem;
+   margin-bottom: 1.5rem;
+}
+
+.showcase .showcaseInfo .detail .showcaseBox{
+   padding: 2rem;
+   margin: 1.5rem;
+   text-align: center;
+}
+
+.showcase .showcaseInfo .detail .showcaseBox div{
+   border: 1px dotted #777E91;
+   padding: 1rem;
+   border-radius:20px;
+}
+
+.showcaseInfo .detail .links{
+   display: flex;
+   justify-content: space-evenly;
+   border-top: 1px solid black;
+   border-bottom: 1px solid black;
+}
+
+.showcaseInfo .detail .links li{
+   margin: .5rem 0;
+}
+
+.showcaseInfo .detail .profileStatus{
+   display: flex;
+   padding: 1rem;
+   align-items: center;
+   
+}
+
+.showcaseInfo .detail .profileStatus div{
+   display: flex;
+   flex-direction: column;
+}
+
+.showcaseInfo .detail .card{
+   padding: .5rem;
+   border-radius: 10px;
+   box-shadow: 5px 10px 18px #888888;
+}
+
+.showcaseInfo .detail .card p{
+   font-size: 15px;
+   color: #777E90;
+}
+
+.showcaseInfo .detail .card .cardBtn{
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.showcaseInfo .detail .card .lastText{
+   margin-top: 1rem;
+}
+
+/* upload */
+.upload{
+   display: grid;
+   grid-template-columns: 2fr 1fr;
+}
+
+.uploadLeft{
+   display: grid;
+   grid-template-columns: 2fr 1fr;
+   padding: 2rem;
+}
+
+.uploadRight{
+   padding: 2rem;
+   border-left: 1px solid #E6E8EC;
+}
+
+
+.upload .uploadLeft img{
+   width: 80px;
+   height: 80px;
+   border-radius: 20px;
+
+}
+
+.uploadLeft .uploadBid{
+   display: flex;
+   margin-bottom: 1rem;
+}
+
+
+.uploadLeft .uploadBid .uploadBidProfile{
+   display: flex;
+   align-items: center;
+}
+
+
+/* Popular seller */
+.popularSeller{
+   background-color: #F4F5F6;
+   padding-bottom: 5rem;
+}
+
+.popularSeller .sellerHeading{
+   padding: 2rem;
+   display: flex;
+   justify-content: space-between;
+}
+
+.popularSeller .sellers{
+   display: flex;
+}
+.popularSeller .sellerProfile{
+   padding: 2rem;
+   width: 20%;
+   background-color: #fff;
+   margin: 1rem;
+border-radius: 20px;
+}
+
+.popularSeller .sellerProfile:hover{
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.popularSeller .sellerProfile .sellerTop{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 1rem 0;
+   padding-bottom: 20px;
+   border-bottom: 1px solid #777E90;
+}
+
+
+.popularSeller .sellerProfile .sellerTop div:first-child{
+   display: flex;
+   background: #3772FF;
+   border-radius: 5px;
+   padding: 2px 2px 2px;
+  align-items: center;
+ 
+}
+.popularSeller .sellerProfile .sellerTop div:last-child{
+   display: flex;
+   padding: 2px;
+  align-items: center;
+}
+
+.popularSeller .sellerProfile .sellerImage{
+   text-align: center;
+   padding: 1.5rem;
+}
+
+.popularSeller .sellerProfile .sellerBottom{
+   text-align: center;
+}
+
+/* crypto */
+.crypto{
+   display: flex;
+   height: 500px;
+   margin-bottom: 50px;
+}
+
+.crypto div{
+   width: 50%;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-self: center;
+}
+
+.crypto div:last-child{
+   align-items: center;
+}
+
+/* linkSection */
+.linkSection{
+   display: flex;
+   justify-content: space-between;
+   border-bottom: 1px solid #777E90;
+}
+
+
+
+.linkSection div:nth-child(2) h3,
+.linkSection div:nth-child(3) h3,
+.linkSection div:nth-child(4) h3{
+   padding-top: 2.5rem;
+   padding-bottom: 2.5rem;
+} 
+
+.linkSection .link1,
+.linkSection .link2,
+.linkSection .link3,
+.linkSection .link4{
+   width: 25%;
+   padding: 1rem;
+}
+
+.linkSection ul li{
+   padding-bottom: 2rem;
+}
+
+
+.linkSection input{
+   width: 100%;
+   margin-top: 1.5rem;
+   padding: .5rem;
+   border-radius: 5px;
+}
+
+footer{
+   display: flex;
+   justify-content: space-between;
+   padding: 2rem;
+}

@@ -1,0 +1,93 @@
+nav{
+   display: flex;
+}
+
+
+
+.leftNav .discover {
+   display: none;
+}
+
+.leftNav .logo{
+   border: none;
+}
+
+.leftNav .logo img{
+   padding: 0;
+   margin: 0;
+}
+
+.rightNav .searchTab input,
+.rightNav .btnBlue,
+.rightNav .profile h3{
+   display: none;
+}
+
+.rightNav{
+   display: flex;
+}
+
+.rightNav .profile{
+   border: none;
+}
+
+.rightNav .menu{
+   display: block;
+}
+
+/* showcase */
+.showcase{
+   display: block;
+   margin-top: 2rem;
+}
+
+.showcase .showcaseImg{
+   height: 30rem;
+   width: 20rem;
+}
+
+.showcase .showcaseInfo{
+   margin-left: 0;
+}
+
+.showcase h2,
+.showcase p{
+   text-align: center;
+}
+
+.showcaseInfo .detail .card img{
+    width: 50px;
+   height: 50px;
+   border-radius: 100%;
+   padding-right: 10px; 
+}
+
+.linkSection{
+   flex-direction: column;
+   align-items: center;
+}
+
+.linkSection .link1{
+   display: none;
+}
+
+.linkSection .link1,
+.linkSection .link2,
+.linkSection .link3,
+.linkSection .link4{
+   text-align: center;
+   width: 100%;
+   padding: 1rem;
+}
+
+.linkSection .link4{
+   margin-bottom: 1rem;
+}
+
+footer div:first-child{
+   text-align: center;
+}
+footer div:last-child{
+   display: none;
+}
+

@@ -1,0 +1,28 @@
+.container{
+   width: 90%;
+   margin: auto;
+}
+
+nav{
+   width: 80%;
+   min-width: 720px;
+}
+
+.leftNav .logo{
+  align-items: center;
+  align-self: center;
+  align-content: center;
+   border: none;
+}
+
+.leftNav .discover {
+   display: none;
+}
+
+.rightNav{
+   gap: 2px;
+}
+
+.rightNav .menu{
+   display: none;
+}

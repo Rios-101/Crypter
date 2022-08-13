@@ -1,0 +1,38 @@
+/* Nav */
+
+.leftNav .logo{
+   border: none;
+}
+
+.rightNav .searchTab input{
+   display: none;
+}
+
+.leftNav .discover,
+.rightNav .profile h3{
+   display: none;
+}
+
+.rightNav .profile{
+   border: none;
+}
+
+/* Showcase */
+.showcase{
+   flex-direction: column;
+   margin-top: 3rem;
+}
+
+.showcase .showcaseImg{
+  padding: 15rem 0;
+}
+
+.linkSection{
+   flex-direction: row;
+}
+
+.linkSection .link1{
+   display: none;
+}
+
+

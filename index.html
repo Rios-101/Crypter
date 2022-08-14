@@ -15,7 +15,7 @@
    <nav class="container">
       <div class="leftNav">
          <div class="logo">
-            <img src="/Css/images/logo2.svg" alt="">
+            <img style="height: 50px;"  src="/Css/images/logo2.svg" alt="">
          </div>
          <div class="discover">
             <a href="#" class="discover">Discover</a>
@@ -40,8 +40,8 @@
    <!-- create -->
 
    <div class="container center create">
-      <p class="p1">Create, explore, & collect digital art NFTs.</p>
-      <h2>The new creative economy.</h2>
+      <p class="p1 grey">Create, explore, & collect digital art NFTs.</p>
+      <div style="font-weight: bolder;">The new creative economy.</div>
       <button class="btn bg-white">Start your search</button>
    </div>
 
@@ -77,8 +77,8 @@
                </div>
             </div>
             <div class="flex">
-               <button style="margin-bottom: .5rem;" class="btnBlue">Place a bid</button>
-               <button class="btnBlue">View item</button>
+               <button style="padding: 1rem; margin-bottom: .5rem;" class="btnBlue">Place a bid</button>
+               <button style="padding: 1rem;" class="btnBlue">View item</button>
             </div>
          </div>
       </div>
@@ -174,7 +174,7 @@
                      <div style="font-weight: bolder;">3.5 ETH</div>
                   </div>
                </div>
-               <button class="btnGray">Discover More -></button>
+               <button class="btnGray">Discover More <i class="fas fa-arrow-circle-right"></i></button>
             </div>
       </div>
    </div>
@@ -187,7 +187,10 @@
             <div class="grey">Popular</div>
             <div style="font-size: 2rem; font-weight: bold">Seller <i style="padding-left: 5px;" class="fas fa-sort-down"></i></div>
          </div>
-         <input style="border-radius: 10px;" type="text" placeholder="Today">
+         <select style="border-radius: 10px; width: 250px;" type="text" placeholder="Today" >
+            <option value="Today">Today</option>
+            <option value="Tomorrow">Tomorrow</option>
+         </select>
       </div>
       <div class="sellers">
           <div class="sellerProfile">

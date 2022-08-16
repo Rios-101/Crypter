@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
 *{
    box-sizing: border-box;
    margin: 0;
@@ -113,8 +117,24 @@ a{
    margin-bottom: .5rem;
 }
 
+.m1{
+   margin: 1rem 0;
+}
+
 .mb1{
    margin-bottom: 3rem;
+}
+
+.pt{
+   padding: 3rem 0 .5rem 0;
+}
+
+.pt1{
+   padding: 1rem 0;
+}
+
+.p_07{
+   padding: .7rem 0;
 }
 
 .p_05{
@@ -133,7 +153,10 @@ a{
    padding: 0 .2rem;
 }
 
-
+.width{
+   width: 60%;
+   text-align: center
+}
 /* Nav */
 nav {
    /* display: flex;

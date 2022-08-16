@@ -5,8 +5,9 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Document</title>
-   <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
    <link rel="stylesheet" href="/Css/styles.css">
+   <link rel="stylesheet" href="/Css/upload.css">
    <link rel="stylesheet" media="(min-width: 769px) and (max-width: 926px)" href="/Css/tablet.css">
    <link rel="stylesheet" media="(min-width: 450px) and (max-width: 769px)" href="/Css/ipad.css">
    <link rel="stylesheet" media="(max-width:450px)" href="/Css/mobile.css">
@@ -14,7 +15,7 @@
 <body>
    <nav class="container">
       <div class="leftNav">
-        <div class="logo">
+         <div class="logo">
             <a href="./index.html"><img style="height: 50px;"  src="/Css/images/logo2.svg" alt=""></a>
          </div>
          <div class="discover">
@@ -36,62 +37,46 @@
          <div class="menu" ><i class="lni lni-menu"></i></div>
       </div>
    </nav>
+   <div class="greyRull"></div>
 
-   <!-- showcase -->
-   <div class="container showcase">
-      <div class="showcaseImg"></div>
-      <div class="showcaseInfo">
-         <div class="detail">
-            <h2>The amazing art</h2>
-            <ul class="productName">
-               <li>2.5 ETH</li>
-               <li>$4,429.87</li>
-               <li>10 in stock</li>
-            </ul>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio rem nisi voluptas, fugit exercitationem aperiam explicabo tempore! Dolorem, quia! Porro.</p>
-            <ul class="links">
-               <li class="btn">Info</li>
-               <li class="btn">Owners</li>
-               <li class="btn">History</li>
-               <li class="btn">Bids</li>
-            </ul>
-            <div class="profileStatus">
-               <img class="avater" src="./Css/images/pexels-stefan-stefancik-91224.jpg" alt="">
-               <div>
-                  <p>Owner</p>
-                  <p class="bold">Rios</p>
-               </div>
-            </div>
-            <div class="profileStatus">
-               <img class="avater" src="./Css/images/pexels-stefan-stefancik-91224.jpg" alt="">
-               <div>
-                  <p>Owner</p>
-                  <p class="bold">Rios</p>
-               </div>
-            </div>
+<!-- tab -->
+   <div class="tabs container">
+      <a class="btnGray">
+         <i class="fas fa-long-arrow-alt-left"></i> Back to home
+      </a>
+      <div>
+         <a href="./index.html"><div class="grey">Home</div></a>
+         <i class="plr1 fas fa-chevron-right"></i>
+         <a href="./upload.html"><div>Upload Item</div></a>
+      </div>
+   </div>
+   <div class="greyRull"></div>
 
-            <div class="card">
-               <div class="profileStatus">
-                  <img class="avater" src="./Css/images/pexels-andrea-piacquadio-839011.jpg" alt="">
-                  <div>
-                     <p>Highest Bid By <span class="bold">Konaku Tora</span></p>
-                     <p><span class="bold">1.46ETH</span> $2,764.89</p>
-                  </div>
-                  <!-- <div>
-                     <h3>Konaku Tora</h3>
-                     <h3></h3>
-                  </div> -->
-               </div>
-               <div class="cardBtn">
-                  <button class="btnBlue">Purchase now</button>
-                  <button class="btnBlue">Place a bid</button>
-               </div>
-               <p class="lastText">Service fee <span class="bold">1.5%</span> 2.563 ETH $4,540.62</p>
-            </div>
+   <!-- Uploaded item -->
+   <div class="uploadedItem">
+      <h1 class="bold">UpLoaded Item</h1>
+      <p class="grey">Choose <span class="bold">“Single”</span> if you want your collectible to be one of a kind or <span class="bold">“Multiple”</span> if you want to sell one collectible multiple times</p>
+   </div>
+
+   <!-- create -->
+   <div class="create">
+      <div>
+         <div class="single">
+            <img src="./Css/images/1.jpg" alt="">
+            <div><a href="#" class="btnGray btGray">Create Single</a></div>
          </div>
+         <div class="multiple">
+            <img src="./Css/images/2.jpg" alt="">
+            <div><a class="btnBlue" href="#">Create multiple</a></div>
+         </div>
+      </div>
+
+      <div>
+         <p class="p2 mb1">We do not own your private keys and cannot access your funds without your confirmation.</p>
       </div>
    </div>
 
+   <div class="greyRull"></div>
    <!-- Links -->
 
    <div class="container linkSection">

@@ -12,6 +12,8 @@ html {
 
 body{
    font-family: 'Roboto', sans-serif;
+   color: #23262F;
+   background: #FCFCFD;
 }
 
 ul{
@@ -53,7 +55,7 @@ a{
 .btnBlue{
    color: #fff;
    background-color: #3772FF;
-    padding: .75rem;
+    padding: .5rem .75rem;
    border-radius: 20px;
    border: none;
 }
@@ -90,6 +92,8 @@ a{
 .flex{
    display: flex;
    flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
 
 .avaterDiv{
@@ -137,8 +141,13 @@ a{
    padding: .7rem 0;
 }
 
+
 .p_05{
    padding: .2rem 1rem;
+}
+
+.p_08{
+   padding: .8rem 0 .2rem;
 }
 
 .p1{
@@ -182,7 +191,7 @@ nav {
 
 .leftNav .discover{
   display: flex;
-  padding: .8rem 1rem;
+  padding: 0rem 1rem;
   align-self: center;
   align-items: center;
 }
@@ -219,13 +228,13 @@ nav {
   align-items: center;
   border: 1px solid #777E90;
   border-radius: 5px;
-  padding: 0.5rem;
+  padding: .2rem 0.5rem;
   background-color: #fff;
 }
 
 .profile img{
-   width: 40px;
-   height: 40px;
+   width: 30px;
+   height: 30px;
    border-radius: 50%;
 }
 
@@ -276,12 +285,14 @@ nav {
 .showcaseInfo .detail h2{
    font-size: 3rem;
    font-weight: bold;
+   margin-left: 20px;
 }
 
 .showcaseInfo .detail .detailProfil{
    display: flex;
    justify-content: space-between;
    padding: 1rem;
+   margin-left: 20px;
 }
 
 .showcaseInfo .detail .productName{
@@ -366,7 +377,7 @@ nav {
 /* upload */
 .upload{
    display: grid;
-   grid-template-columns: 2fr 1fr;
+   grid-template-columns: 3fr 1fr;
    margin-bottom: 2rem;
 }
 
@@ -422,7 +433,7 @@ nav {
    display: flex;
 }
 .popularSeller .sellerProfile{
-   padding: .5rem 1rem;
+   padding: .5rem 1rem 1rem ;
    width: 20%;
    background-color: #fff;
    margin: 1rem;
@@ -438,6 +449,7 @@ border-radius: 10px;
    align-items: center;
    justify-content: space-between;
    padding: 1rem 0;
+   margin: 0 .5rem;
    padding-bottom: 20px;
    border-bottom: 1px solid #777E90;
 }

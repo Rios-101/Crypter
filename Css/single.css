@@ -24,7 +24,7 @@
    margin: 10px 0;
    width: 100%;
    height: 200px;
-   background: #E6E8EC;
+   background: #F4F5F6;
    border-radius: 10px;
    display: flex;
    justify-content: center;
@@ -40,10 +40,10 @@
 .singleItem input,
 .singleItems input{
    width: 100%;
-   padding: .7rem 0;
+   padding: .9rem 0;
    margin: .3rem 0 1rem 0;
    border: 1px solid #777E90;
-   border-radius: 10px;
+   border-radius: 5px;
 }
 
 .singleItems{
@@ -141,13 +141,10 @@ input:checked + .slider:before {
 }
 
 
-.single .singleRight{
-   padding: 4rem 4rem;
-}
-
 .single .singleRight {
    padding: 2rem;
    border-radius: 10px;
+   height: 464px;
 }
 
 .single .singleRight:hover {
